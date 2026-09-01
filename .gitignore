@@ -1,0 +1,10 @@
+*.class
+.idea/
+*.iml
+out/
+target/
+build/
+.gradle/
+*.log
+.DS_Store
+Thumbs.db
