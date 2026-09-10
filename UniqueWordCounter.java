@@ -12,8 +12,6 @@ Constraints & Notes:
 - Words are separated by spaces.
 - No need to handle punctuation (e.g., "Hello, world!") for this question.
 - Use Java Streams to implement the solution.
-
-@author Lalit Patil
 */
 
 import java.util.Arrays;
