@@ -4,6 +4,13 @@ class RemoveWhiteSpaceFromString {
 		
 		String withWhiteSpace = " Ar ju n  Gaik  wad";
 		removeWhiteSpaceFromString(withWhiteSpace);
+		removeWhiteSpaceFromStringWithInBuitMethod(withWhiteSpace);
+	}
+	
+	public static void removeWhiteSpaceFromStringWithInBuitMethod(String withWhiteSpace){
+		
+		System.out.println("Inbuit method for removeing white space :- "+withWhiteSpace.replaceAll("\\s",""));
+		
 	}
 	
 	public static void removeWhiteSpaceFromString(String word){
